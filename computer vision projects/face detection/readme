@@ -3,3 +3,4 @@ use pycharm
 after creating the project add a new folder name it "Resources" and move the haarcascade frontal face xlm to it
 install opencv-python for importing cv2(watch a video on how to add libraries or how to install packages in pycharm projects)
 i used opencv-python version 4.2.0.32 you can also use the same or use other version
+change videocapture from 0 to 1 if you are using a extra webcam on pc or if you are using a pc
