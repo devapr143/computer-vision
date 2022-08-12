@@ -1,0 +1,9 @@
+This project uses webcam to detect an object whose color has been entered and then you can draw by moving that object.
+
+
+Use python 3.7 or 3.7.6
+use pycharm
+install opencv-python for importing cv2(watch a video on how to add libraries or how to install packages in pycharm projects.
+i used opencv-python version 4.2.0.32 you can also use the same or use other version
+change videocapture from 0 to 1 if you are using a extra webcam on pc or if you are using a pc.
+use  color selector.py to get parameter values for your color and use virtual painter for detection and paint
