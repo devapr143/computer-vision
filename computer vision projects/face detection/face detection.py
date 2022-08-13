@@ -11,6 +11,10 @@ while True:
     faces = facecascade.detectMultiScale(imgGray, 1.1, 4)
     for (x,y,w,h) in faces:
         cv2.rectangle(img,(x,y),(x+w,y+h),(20,255,57),2)
+        
+ #if it seems laggy remove the puttext line
+
+        cv2.putText(img, "Face detected", (x, y - 5), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 2)
         cv2.imshow("Video",img)
     if cv2.waitKey(1) & 0xFF ==ord('q'):
         break
